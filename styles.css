@@ -38,3 +38,48 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+  .container_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  button {
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0c7061;
+    color: #fff;
+    height: 100vh;
+    font-family: monospace;
+  }
+  h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+
+  .scoreDisplay{
+    font-size: 20px;
+    text-align: center;
+    background-color: #ff9a00;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
